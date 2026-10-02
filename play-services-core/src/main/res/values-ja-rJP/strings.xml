@@ -475,16 +475,16 @@
     <string name="self_check_resolution_notifications">ここをタップして通知設定を開いてください。通知は、バッテリーの最適化が有効になっている場合やその他の条件下で GcmService をバックグラウンドで実行し続けるために使用されます</string>
     <string name="self_check_name_oem_restriction">バックグラウンド処理の制限</string>
     <string name="self_check_resolution_oem_restriction">お使いのシステムによっては、バックグラウンド プロセスが制限されている場合があります。ここをタップして「Don\'t Kill My App!」サイトを開き、これらの制限を無効にする方法をご確認ください</string>
-    <string name="morphe_sign_in_with_google_microg_label">MicroG RE 経由で Google にログイン</string>
+    <string name="morphe_sign_in_with_google_microg_label">MicroG RE 経由で Google アカウントでログイン</string>
     <string name="self_check_patched_app_installed">%1$s が適用されたアプリのインストール</string>
     <string name="self_check_action_download_morphe">Morphe をダウンロード</string>
     <!-- ABI mismatch: arm64 APK on 32-bit userspace -->
     <string name="abi_mismatch_title">誤ったアーキテクチャ バリアントがインストールされています</string>
-    <string name="abi_mismatch_message">"このMicroG-REビルドには64ビット(arm64)ライブラリしか含まれていませんが、このデバイスは32ビットユーザースペースで動作しています。
+    <string name="abi_mismatch_message">"この MicroG-RE ビルドには 64 ビット（arm64）ライブラリのみが含まれていますが、このデバイスは 32 ビットのユーザー空間で動作しています。
 
-Conscryptを必要とする機能（アカウントログイン、ストリーミング、BotGuard、動画ストリームの偽装、SponsorBlock、Return YouTube Dislikeなど）は正常に動作せず、再生の問題、または「Unable to find a default SSL provider」を引き起こす可能性があります。
+Conscrypt を必要とする機能（アカウント ログイン、ストリーミング、BotGuard、動画ストリームの偽装、SponsorBlock、Return YouTube Dislike など）は正しく動作せず、再生の問題や「デフォルトの SSL プロバイダーが見つかりません」というエラーが発生する可能性があります。
 
-代わりにARMv7 APKまたはユニバーサルAPKをインストールしてください。"</string>
+代わりに ARMv7 またはユニバーサル版 APK をインストールしてください。"</string>
     <string name="abi_mismatch_download_armv7">ARMv7 APK をダウンロード</string>
     <string name="abi_mismatch_downloading_title">正しいバリアントをダウンロード中…</string>
 </resources>
