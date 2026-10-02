@@ -21,9 +21,9 @@ microG Services is a FLOSS (Free/Libre Open Source Software) framework to allow 
 Six variants are offered:
 
 - `microg-version.apk` — Universal
-- `microg-version-arm64-v8a.apk` — ARM64
-- `microg-version-armeabi-v7a.apk` — ARMv7 (32-bit)
 - `microg-version-noicon.apk` — Universal, icon hidden
+- `microg-version-icon-arm64-v8a.apk` — ARM64
+- `microg-version-icon-armeabi-v7a.apk` — ARMv7 (32-bit)
 - `microg-version-noicon-arm64-v8a.apk` — ARM64, icon hidden
 - `microg-version-noicon-armeabi-v7a.apk` — ARMv7 (32-bit), icon hidden
 
@@ -33,7 +33,7 @@ The app can be opened from the app info found in the device system app list.
 `arm64-v8a` contains only ARM64 native libraries. The app is less than half the size of the regular release.
 Most modern phones can use this release.
 
-`armeabi-v7a` contains only 32-bit ARM native libraries and is intended for devices using a 32-bit Android userspace, including some devices with ARM64-capable CPUs.
+`armeabi-v7a` contains only 32-bit ARM native libraries and is for devices using a 32-bit Android userspace, including some devices with ARM64-capable CPUs.
 
 If you are unsure which variant to use, download the universal APK (`microg-version.apk`).
 
