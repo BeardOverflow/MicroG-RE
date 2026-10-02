@@ -71,7 +71,7 @@ jobs:
 
       - name: "Prepare ARM64 icon APK"
         run: |
-          cp "${{ steps.sign_arm64.outputs.signedFile }}" "dist/microg-${{ steps.version.outputs.tag }}-arm64-v8a.apk"
+          cp "${{ steps.sign_arm64.outputs.signedFile }}" "dist/microg-${{ steps.version.outputs.tag }}-icon-arm64-v8a.apk"
 
       - name: "Build ARMv7 icon APK"
         run: "./gradlew --no-daemon :play-services-core:assembleDefaultRelease -Pabi=armeabi-v7a"
@@ -89,7 +89,7 @@ jobs:
 
       - name: "Prepare ARMv7 icon APK"
         run: |
-          cp "${{ steps.sign_armv7.outputs.signedFile }}" "dist/microg-${{ steps.version.outputs.tag }}-armeabi-v7a.apk"
+          cp "${{ steps.sign_armv7.outputs.signedFile }}" "dist/microg-${{ steps.version.outputs.tag }}-icon-armeabi-v7a.apk"
 
       - name: "Build universal noicon APK"
         run: "./gradlew --no-daemon :play-services-core:assembleDefaultRelease -PnoIcon=true"
